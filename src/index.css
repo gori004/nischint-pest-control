@@ -1,0 +1,27 @@
+ @import "tailwindcss";
+
+/* Force Dark Mode Colors */
+html.dark body, 
+html.dark .min-h-screen, 
+html.dark section {
+  background-color: #020617 !important;
+  color: #f8fafc !important;
+}
+
+/* Force Light Mode Colors */
+html:not(.dark) body, 
+html:not(.dark) .min-h-screen {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+}
+
+/* Service Cards fix for Dark Mode */
+html.dark .service-card {
+  background-color: rgba(30, 41, 59, 0.5) !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+body {
+  margin: 0;
+  transition: all 0.4s ease-in-out;
+}
