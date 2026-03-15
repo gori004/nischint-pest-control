@@ -1,6 +1,4 @@
- import { useAppContext } from '../context/AppContext';
-import { ShieldCheck, Zap } from 'lucide-react';
-
+ import { useAppContext } from '../context/AppContext'; 
 // Images ko import karein (Path check kar lena sahi hai na)
 import termiteImg from '../assets/termite-service.jpg';
 import cockroachImg from '../assets/cockroach-service.jpg';
