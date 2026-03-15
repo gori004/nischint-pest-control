@@ -9,7 +9,8 @@ export const Footer = () => {
         {/* Logo & Description */}
         <div className="md:col-span-2">
            <div className="mb-4 text-2xl font-black tracking-tighter text-slate-950 dark:text-white">
-             NISCHINT<span className="text-blue-600">.</span>
+             NISCHINT 
+              <p className="text-[10px] text-slate-500 font-bold uppercase tracking-[0.2em]">Pest Control</p>
            </div>
            <p className="max-w-sm text-sm font-medium leading-relaxed text-slate-700 dark:text-slate-400">
              {lang === 'hi' 
@@ -53,7 +54,7 @@ export const Footer = () => {
       </div>
 
       <div className="container mx-auto mt-20 pt-8 border-t border-slate-200 dark:border-white/5 text-center text-[10px] text-slate-500 dark:text-slate-500 uppercase tracking-widest font-bold">
-        © 2026 Nischint Pest Control - Designed by GORI SILRA
+        © 2026 Nischint Pest Control 
       </div>
     </footer>
   );

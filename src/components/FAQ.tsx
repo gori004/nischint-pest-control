@@ -17,8 +17,8 @@ export const FAQ = () => {
     {
       q: lang === 'hi' ? "दीमक के उपचार में कितना समय लगता है?" : "How long does termite treatment take?",
       a: lang === 'hi' 
-        ? "घर के आकार के आधार पर इसमें आमतौर पर 4-6 घंटे लगते हैं। हम 5-10 साल की गारंटी भी देते हैं।" 
-        : "It usually takes 4-6 hours depending on the house size. We also provide a 5-10 year warranty."
+        ? "घर के आकार के आधार पर इसमें आमतौर पर 4-6 घंटे लगते हैं।" 
+        : "It usually takes 4-6 hours depending on the house size."
     },
     {
       q: lang === 'hi' ? "क्या मुझे घर खाली करना होगा?" : "Do I need to empty the house?",
