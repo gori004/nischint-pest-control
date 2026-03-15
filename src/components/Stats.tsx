@@ -5,8 +5,8 @@ export const Stats = () => {
   const { lang } = useAppContext();
   
   const stats = [
-    { num: "500+", label: lang === 'hi' ? "खुश परिवार" : "Happy Families" },
-    { num: "10+", label: lang === 'hi' ? "सालों का अनुभव" : "Years Experience" },
+    { num: "100+", label: lang === 'hi' ? "खुश परिवार" : "Happy Families" },
+    { num: "1+", label: lang === 'hi' ? "सालों का अनुभव" : "Years Experience" },
     { num: "100%", label: lang === 'hi' ? "सुरक्षित दवाइयां" : "Safe Chemicals" },
   ];
 
